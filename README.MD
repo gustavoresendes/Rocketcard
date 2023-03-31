@@ -1,11 +1,11 @@
 <h1 align="center">Rocketcard</h1>
 
-<p>Card customizável</p>
+<p align="center">Card customizável</p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>
 </p>
 
 <br>
@@ -28,9 +28,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Projeto que possibilida a customização de cards utilizando a API do GitHub.
 
-- [x] Informações básicas (foto, seguidores, localização, repositórios, etc) 
+- [x] Informações básicas (foto, seguidores, localização, repositórios, etc)
 - [x] Personalização do background do card.
 
 Funcionalidades a serem implementadas:
 
-- [] Funcionalidade para copiar o card no clipboard do usuário.
+- [ ] Funcionalidade para copiar o card no clipboard do usuário.
