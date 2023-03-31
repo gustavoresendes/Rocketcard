@@ -54,7 +54,7 @@ function App() {
             </li>
             <li>
               <img src="./src/assets/repository.svg" />
-              {user?.repos_url.length} Repositórios
+              {user?.public_repos} Repositórios
             </li>
             <li>
               <img src="./src/assets/company.svg" />

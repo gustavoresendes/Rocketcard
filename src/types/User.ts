@@ -4,6 +4,6 @@ export type UserProps = {
     location: string,
     followers: number,
     following: number
-    repos_url: string,
+    public_repos: string,
     company: string
 }
