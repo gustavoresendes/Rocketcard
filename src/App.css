@@ -7,29 +7,13 @@
     --border-button: #1A1A1A;
 }
 
-@-webkit-keyframes slide-in-bck-center {
-    0% {
-        -webkit-transform: translateZ(600px);
-        transform: translateZ(600px);
-        opacity: 0;
-    }
-
-    100% {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        opacity: 1;
-    }
-}
-
 @keyframes slide-in-bck-center {
     0% {
-        -webkit-transform: translateZ(600px);
         transform: translateZ(600px);
         opacity: 0;
     }
 
     100% {
-        -webkit-transform: translateZ(0);
         transform: translateZ(0);
         opacity: 1;
     }
@@ -49,7 +33,6 @@ html {
     width: 432px;
     height: 748px;
     border-radius: 50px;
-    -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
@@ -82,7 +65,7 @@ html {
 .card header>div {
     width: 55px;
     height: 55px;
-    border: 1px solid #F1F1F1;
+    border: 1px solid var(--text);
     border-radius: 50%;
     background-image: url('./assets/logo.svg');
     background-size: 30px 35px;
@@ -108,7 +91,7 @@ html {
     bottom: 170px;
     left: 30px;
     width: 220px;
-    background: linear-gradient(180deg, #000000 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
+    background: linear-gradient(180deg, var(--bg) 3.65%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
     padding: 30px 10px 30px 10px;
     border-radius: 50px;
 }
@@ -168,7 +151,6 @@ footer img {
     position: relative;
     bottom: 420px;
     right: 150px;
-    -webkit-animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
     animation: slide-in-bck-center 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
