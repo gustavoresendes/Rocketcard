@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Projeto que possibilida a customização de cards utilizando a API do GitHub.
+Projeto que cria cards customizáveis utilizando a API do GitHub.
 
 - [x] Informações básicas (foto, seguidores, localização, repositórios, etc)
 - [x] Personalização do background do card.
